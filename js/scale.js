@@ -14,7 +14,7 @@
  * myScale(50); // returns 5
  * myScale(150); // returns 15
  *
- * var clampScale = scale([0, 100], [0, 10]);
+ * var clampScale = scale([0, 100], [0, 10], true);
  *
  * clampScale(50); // returns 5
  * clampScale(150); // returns 10
